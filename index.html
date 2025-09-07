@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MomScript Data Deletion Request</title>
+    <style>
+        body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; line-height: 1.6; color: #333; max-width: 650px; margin: 40px auto; padding: 0 20px; background-color: #fdfafc; }
+        .container { background-color: #fff; padding: 30px; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.05); border: 1px solid #eee; }
+        h1 { color: #b36b89; font-size: 24px; }
+        p { font-size: 16px; margin-bottom: 20px; }
+        .button { display: inline-block; background-color: #b36b89; color: #fff; padding: 12px 20px; text-decoration: none; border-radius: 5px; font-weight: bold; transition: background-color 0.2s; }
+        .button:hover { background-color: #9c5b76; }
+        .note { font-size: 14px; color: #666; margin-top: 30px; border-top: 1px solid #eee; padding-top: 20px; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>MomScript Account & Data Deletion</h1>
+        <p>We understand and respect your right to data privacy. You can request the permanent deletion of your MomScript account and all associated data from our servers.</p>
+        <p>To begin the process, please click the button below. This will open your email client with a pre-filled message. Simply send the email from the address associated with your MomScript account.</p>
+        
+        <a href="mailto:support@momscript.space?subject=MomScript Data Deletion Request" class="button">
+            Request Data Deletion
+        </a>
+
+        <div class="note">
+            <p><strong>What will be deleted?</strong></p>
+            <p>Upon receiving your request, we will permanently delete the following data from our servers:</p>
+            <ul>
+                <li>Your email address</li>
+                <li>Your subscription status and history</li>
+            </ul>
+            <p><strong>Please note:</strong> As stated in our Privacy Policy, your personal journal entries and mood logs are stored only on your device. We do not have access to this data, and it is not affected by this server data deletion request. To delete this local data, you must uninstall the MomScript app from your device.</p>
+        </div>
+    </div>
+</body>
+</html>
+```eof
+
+**2. Privacy Policy Page (`privacy-policy.html`)**
+
+This file is also updated with `support@momscript.space`.
+
+```html:Privacy Policy Page:privacy-policy.html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MomScript Privacy Policy</title>
+    <style>
+        body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; line-height: 1.6; color: #333; max-width: 650px; margin: 40px auto; padding: 0 20px; background-color: #fdfafc; }
+        .container { background-color: #fff; padding: 30px; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.05); border: 1px solid #eee; }
+        h1, h3 { color: #b36b89; }
+        h1 { font-size: 24px; }
+        h3 { font-size: 18px; margin-top: 30px; }
+        p, li { font-size: 16px; }
+        .footer { margin-top: 30px; border-top: 1px solid #eee; padding-top: 20px; font-size: 14px; color: #666; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Privacy Policy for MomScript</h1>
+        <p><strong>Effective Date:</strong> September 7, 2025</p>
+        
+        <p>Thank you for choosing MomScript. This Privacy Policy describes how MomScript ("we," "us," or "our") collects, uses, and handles your information when you use our mobile application (the "App"). Our guiding principle is that your most personal data—your journal entries and mood logs—should belong only to you.</p>
+
+        <h3>1. Information We Collect</h3>
+        <p><strong>Email Address:</strong> When you subscribe to MomScript, we collect your email address to create and manage your account and subscription.</p>
+        <p><strong>Journal Entries & Mood Logs:</strong> This data is stored exclusively on your local device. We do not collect or have access to this information.</p>
+        <p><strong>Purchase Information:</strong> Payments are processed by the Google Play Store. We only receive a confirmation token to verify your subscription.</p>
+
+        <h3>2. How We Use Your Information</h3>
+        <p>We use your email and purchase information to provide and maintain the App, manage your subscription, and authenticate you. We use the OpenAI service to generate journal prompts, but no personal data is sent to them.</p>
+
+        <h3>3. Data Storage and Security</h3>
+        <p>Your email and subscription status are stored securely on our backend (Supabase). Your journal entries are stored in an encrypted database on your device. If you lose your device, this local data will be lost.</p>
+
+        <h3>4. Your Rights and Choices</h3>
+        <p>You can request the deletion of your account and all associated server-side data by visiting our <a href="index.html">Data Deletion Request page</a>. To delete your local journal data, you must uninstall the App.</p>
+
+        <div class="footer">
+            <p>If you have any questions about this Privacy Policy, please contact us at: <strong>support@momscript.space</strong></p>
+        </div>
+    </div>
+</body>
+</html>
+```eof
+
+---
+### **Next Step: Using Your Custom Domain**
+
+Now that you have the domain **`momscript.space`**, I highly recommend you use it for your support pages instead of the long GitHub URL. This will give you a much more professional link for your Google Play Store listing.
+
+You can do this by setting up a subdomain, like **`support.momscript.space`**.
+
+Would you like me to guide you through the steps to configure your domain with GitHub Pages? It involves adding a couple of records in your domain provider's DNS settings. It's a great final touch for your brand.
